@@ -1,8 +1,33 @@
 aid: auransa
 name: Auransa
-description: Auransa is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Auransa Inc. is a clinical-stage, AI-native biopharmaceutical company based in
+  Palo Alto, California, founded in 2014 by Pek Lum. Auransa uses its proprietary
+  SMarTR Engine — a hypothesis-free machine learning platform that mines human
+  disease data such as RNA transcriptome and gene-expression profiles — to
+  discover novel small-molecule therapeutics without starting from a predefined
+  drug target. The company has analyzed more than 500,000 gene-expression profiles
+  across roughly 70 diseases to identify molecular disease subtypes and match them
+  to candidate compounds. Its lead program, AU-409, is a first-in-human Phase 1
+  candidate for liver cancer (hepatocellular carcinoma), with additional pipeline
+  work in heart-safe chemotherapy and other oncology indications. Auransa is a
+  DCVC / DCVC Bio portfolio company, also backed by Lux Capital, 11.2 Capital, and
+  Harmonix Fund. Auransa is a private drug-discovery company and does not publish a
+  public API, developer portal, or SDK; this profile captures its identity and web
+  presence in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/auransa/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/64b88de4e311714cd215bed7/t/64cd18e9d05cd663af914d3b/1690553917421/Auransa.jpg?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +36,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Artificial Intelligence
+- Machine Learning
+- Oncology
+- Life Sciences
+- Healthcare
 apis: []
+common:
+- type: DomainSecurity
+  url: security/auransa-domain-security.yml
+- type: Website
+  url: https://www.auransa.com/
+- type: Platform
+  url: https://www.auransa.com/platform
+- type: Support
+  url: https://www.auransa.com/contact
+- type: Publications
+  url: https://www.auransa.com/publications
+- type: LinkedIn
+  url: https://www.linkedin.com/company/auransa
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
