@@ -54,7 +54,7 @@ tags:
 - Pharmaceuticals
 - Drug Discovery
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Oncology
 - Life Sciences
 - Healthcare
@@ -68,6 +68,7 @@ tags_raw:
 - Oncology
 - Life Sciences
 - Healthcare
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
